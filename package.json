@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
@@ -11,6 +12,8 @@
   "dependencies": {
     "body-parser": "^1.17.1",
     "express": "^4.15.2",
+    "mailin": "^3.0.4",
+    "nodemailer": "^4.0.1",
     "random-id": "0.0.2",
     "socket.io": "^1.7.3"
   }
